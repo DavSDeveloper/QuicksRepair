@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuicksRepair</title>
+    <link rel="shortcut icon" href="/resources/icon.png" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <a class="whatsapp-right" href="https://wa.me/+14388552544">
+      <img src="./resources/whatsapp.svg" alt="whatsapp-logo" />
+    </a>
+    <header>
+      <div class="logo">Quicks<strong>Repair</strong></div>
+      <input type="checkbox" id="nav_check" hidden />
+      <nav>
+        <ul>
+          <li>
+            <a href="#hero" class="active">HOME</a>
+          </li>
+          <li>
+            <a href="#servicios">SERVICIOS</a>
+          </li>
+          <li>
+            <a href="#nosotros">NOSOTROS</a>
+          </li>
+          <li>
+            <a href="#contacto">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+      <label for="nav_check" class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>      
+    </header>
+
+    <section id="hero">
+      <div class="container container_animation">
+        <div class="container_information">
+          <h2>Reparaciones Profesionales y Confiables</h2>
+          <p>
+            En QuicksRepair, nos especializamos en la reparación y mantenimiento
+            de electrodomésticos. Con años de experiencia y un equipo de
+            técnicos altamente capacitados, ofrecemos soluciones rápidas y
+            efectivas para que tus equipos vuelvan a funcionar como nuevos. Ya
+            sea que necesites arreglar tu lavadora, estufa, refrigerador u otro
+            electrodoméstico, estamos aquí para ayudarte con un servicio de
+            calidad y garantía.
+          </p>
+          <div class="container_button">
+            <a href="#contacto" class="btn">Contáctanos</a>
+          </div>
+        </div>
+        <img src="resources/repair.png" alt="" />
+      </div>
+    </section>
+
+    <section id="servicios">
+      <div class="container container_animation">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-grid">
+          <div class="servicio">
+            <img src="resources/washer.png" alt="" />
+            <h3>Reparación de Lavadoras</h3>
+            <p>Diagnóstico y reparación de todo tipo de lavadoras.</p>
+          </div>
+          <div class="servicio">
+            <img src="resources/stove.png" alt="" />
+            <h3>Reparación de Estufas</h3>
+            <p>Soluciones rápidas y efectivas para problemas de estufas.</p>
+          </div>
+          <div class="servicio">
+            <img src="resources/fridge.png" alt="" />
+            <h3>Reparación de Refrigeradores</h3>
+            <p>Reparación de refrigeradores de todas las marcas y modelos.</p>
+          </div>
+        </div>
+        <div class="servicios-grid">
+          <div class="servicio">
+            <img src="resources/microwave.png" alt="" />
+            <h3>Reparación de Microondas</h3>
+            <p>Reparación de microondas de todas las marcas.</p>
+          </div>
+          <div class="servicio">
+            <img src="resources/dishwasher.png" alt="" />
+            <h3>Reparación de Lavavajillas</h3>
+            <p>Soluciones eficaces para problemas de lavavajillas.</p>
+          </div>
+          <div class="servicio">
+            <img src="resources/dryers.png" alt="" />
+            <h3>Reparación de Secadoras</h3>
+            <p>Diagnóstico y reparación de secadoras.</p>
+          </div>
+        </div>
+        <div class="servicios-grid">
+          <div class="servicio">
+            <img src="resources/oven.png" alt="" />
+            <h3>Reparación de Hornos</h3>
+            <p>Servicio técnico para todo tipo de hornos.</p>
+          </div>
+          <div class="servicio">
+            <img src="resources/air-conditioning.png" alt="" />
+            <h3>Reparación de Aire Acondicionado</h3>
+            <p>Mantenimiento y reparación de sistemas de aire acondicionado.</p>
+          </div>
+          <div class="servicio">
+            <img src="resources/fryer.png" alt="" />
+            <h3>Reparación de Freidoras</h3>
+            <p>Reparación y mantenimiento de freidoras.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <div class="container container_animation">
+        <div class="container_information">
+          <h2>Sobre Nosotros</h2>
+          <p>
+            Somos un equipo de técnicos especializados con años de experiencia
+            en la reparación de electrodomésticos. En QuickRepair, nos
+            enorgullecemos de ofrecer un servicio de alta calidad y
+            confiabilidad. Nuestros técnicos están altamente capacitados y se
+            mantienen actualizados con las últimas tecnologías y métodos de
+            reparación. Nos comprometemos a proporcionar un diagnóstico preciso
+            y soluciones eficaces para garantizar la satisfacción de nuestros
+            clientes.
+          </p>
+          <p>
+            Nuestro objetivo es brindarte tranquilidad al saber que tus
+            electrodomésticos están en buenas manos. Utilizamos solo repuestos
+            de alta calidad y ofrecemos garantías en todas nuestras
+            reparaciones. Además, valoramos tu tiempo y nos esforzamos por
+            completar las reparaciones de manera rápida y eficiente.
+          </p>
+        </div>
+        <img src="resources/repairWasher.png" alt="" />
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container container_animation">
+        <h2>Contacto</h2>
+        <form
+          action="https://formsubmit.co/reparacionesemail@gmail.com"
+          method="POST"
+        >
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Nombre Completo"
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Correo electrónico"
+            required
+          />
+          <label for="mensaje">Mensaje:</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            placeholder="Tu mensaje"
+            required
+          ></textarea>
+          <button type="submit" class="btn" id="enviar">Enviar</button>
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.7:5500/index.html"
+          />
+          <input type="hidden" name="_captcha" value="false" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 QuicksRepair. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
